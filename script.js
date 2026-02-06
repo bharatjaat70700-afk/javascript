@@ -1,18 +1,17 @@
-// let user={
-//     fullname:"bharat bainiwal",
-//     address:{
-//         city:"gurugram",
-//         state:"haryana"
-//     },
-//     mobileno:1234567890,
-//     favcolor:["black","white","blue"],
-//     demo:function(){
-//         return "demo function";
+// const para = document.getElementsByTagName("p");
+// console.log(para);
+
+// // 
+// para.forEach((p,index)=>{console.log(p);}){
+//     if(index % 2 === 0){
+//         p.style.color = "red";
 //     }
-
+//     else{
+//         p.style.color = "blue";
+//     }
 // }
-// console.log(user.fullname,user.mobile)
-     
+
+// para[para.length - 1].style.fontWeight = "bold";
 
 
 
@@ -23,15 +22,18 @@
 
 
 
+const dem
+
+// create a new Element and append 
+const newPara = document.createElement("p");
+newPara.textContent = "This is a dynamically created paragraph.";
+console.log(newPara)
+
+
+document.getElementById("content").append(newPara);
 
 
 
 
-
-
-
-
-
-
-
-
+const image=document.createElement("img");
+image.setAttribute("src",)
